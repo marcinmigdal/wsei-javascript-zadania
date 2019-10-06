@@ -27,3 +27,10 @@ for (let i = 0; i < array.length; i++) {
     console.log(array[i]);
 }
 
+function printTable(array) {
+    for (let i = array.length; i >= 0; i--) {
+        console.log(array[i]);
+    }
+}
+
+printTable([1, 2, 3]);
