@@ -34,3 +34,14 @@ function printTable(array) {
 }
 
 printTable([1, 2, 3]);
+
+function multiply(array) {
+    var c = 1;
+    for (var i = 0; i < array.length; i++) {
+        c *= array[i];
+    }
+    console.log(c);
+}
+
+multiply([1, 2, 3, 4, 5,6, 7]);
+
