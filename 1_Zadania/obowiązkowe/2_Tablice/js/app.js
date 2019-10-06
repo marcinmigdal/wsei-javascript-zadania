@@ -45,3 +45,16 @@ function multiply(array) {
 
 multiply([1, 2, 3, 4, 5,6, 7]);
 
+function getEvenAvarage(array) {
+    var s = 0;
+    var k = 0;
+    for (var i = 0; i < array.length; i++) {
+        if (array[i] %= 0) {
+            s += array[i];
+            k++;
+        }
+    }
+    return s / k;
+}
+
+getEvenAvarage([1, 2, 3, 4, 5, 6, 7]);
